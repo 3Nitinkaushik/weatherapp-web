@@ -20959,7 +20959,7 @@ case 7:p=c
 if(p===B.d5)A.akx("Open app settings",u.O,new A.agC(a),u.d,a)
 case 6:if(p===B.eA)A.akx("Open app settings",u.O,new A.agD(a),u.d,a)
 o=A.b_("locationSettings")
-if(A.bp()===B.am)o.b=new A.SC(!1,B.nT,0,null)
+if(A.bp()===B.am)o.b=new A.SC(!0,B.nT,0,null)
 else o.b=new A.vt(B.nT,0,null)
 s=8
 return A.a2($.oq().jF(0,o.aE()),$async$rX)
@@ -69996,7 +69996,7 @@ $S:19}
 A.a22.prototype={}
 A.SC.prototype={
 eC(){var s=this.QS()
-s.O(0,A.aG(["forceLocationManager",!1,"timeInterval",null,"foregroundNotificationConfig",null,"useMSLAltitude",!1],t.N,t.z))
+s.O(0,A.aG(["forceLocationManager",!0,"timeInterval",null,"foregroundNotificationConfig",null,"useMSLAltitude",!1],t.N,t.z))
 return s}}
 A.Gc.prototype={
 H(){return"LocationAccuracy."+this.b}}
